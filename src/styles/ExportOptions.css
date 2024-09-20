@@ -1,0 +1,52 @@
+.export-options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los botones */
+    margin-top: 30px;
+}
+
+.export-button {
+    padding: 12px 20px; /* Espaciado interno */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar el ratón */
+    transition: background-color 0.3s, transform 0.2s; /* Transición suave */
+    font-size: 16px; /* Tamaño de fuente */
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Sombra */
+}
+
+.pdf-button {
+    background-color: #d32812;
+}
+
+.pdf-button:hover {
+    background-color: #a01e0d !important;
+}
+
+.txt-button {
+    background-color: rgb(184, 184, 184);
+}
+
+.txt-button:hover {
+    background-color: #848484 !important;
+}
+
+
+.docx-button {
+    background-color: #0056b3;
+}
+
+.docx-button:hover {
+    background-color: #003d80 !important;
+}
+
+.export-button:hover {
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.export-button:active {
+    transform: translateY(0); /* Efecto de pulsación */
+    box-shadow: 0 2px 4px rgba(0, 123, 255, 0.2); /* Sombra al pulsar */
+}

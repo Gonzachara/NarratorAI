@@ -1,0 +1,53 @@
+.saved-stories {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 12px;
+    background-color: rgba(59, 130, 246, 0.1); /* Fondo sutil */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.saved-stories h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000; /* Color del título */
+}
+
+.saved-stories ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0;
+}
+
+.saved-stories li {
+    margin: 5px 0;
+}
+
+.saved-stories button {
+    padding: 10px 15px;
+    background-color: #3b82f6; /* Color del botón */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.saved-stories button:hover {
+    background-color: #2563eb; /* Color al pasar el ratón */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.load-button {
+    display: flex;
+    align-items: center;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.story-icon {
+    margin-left: 8px; /* Espacio entre el texto y el ícono */
+    color: white; /* Color del ícono */
+}
